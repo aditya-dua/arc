@@ -58,7 +58,7 @@ app.post('/send-pdf', (req, res) => {
        
           // send mail with defined transport object
         transporter.sendMail({
-            from: ` Arc Invoice <hello@arcinvoice.com>`, // sender address
+            from: ` Invoice Copy || Aditya Dua <invoice@adityadua.com>`, // sender address
             to: `${email}`, // list of receivers
             replyTo: `${company.email}`,
             subject: `Invoice from ${company.businessName ? company.businessName : company.name}`, // Subject line
