@@ -20,6 +20,7 @@ import Reset from './components/Password/Reset'
 
 function App() {
 
+  //const user = JSON.parse(localStorage.getItem('profile'))
   const user = JSON.parse(localStorage.getItem('profile'))
 
   return (
